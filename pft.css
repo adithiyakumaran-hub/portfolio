@@ -1,0 +1,61 @@
+.image-container {
+    text-align: middle;
+  }
+  
+  .round-image {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 500px; 
+    height: 500px; 
+    border-radius: 50%; 
+    border: 2px solid #000; 
+  }
+  body {
+    background-image: url('bg2.jpeg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.touch-me-btn {
+  background-color: #06eaff; /* Blue */
+  color: #fff; /* White Text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.flex.social-media-icons i {
+  font-size: 24px; 
+}
+.social-media-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  display: block;
+}
+
+.icon.facebook {
+  background-image: url('fb.jpeg');
+}
+
+.icon.instagram {
+  background-image: url('insta.jpeg');
+}
+.icon.linkedin {
+  background-image: url('linkedin.jpeg');
+}
+.icon.drive {
+  background-image: url('drive.jpeg');
+}
+
+.icon:hover {
+  opacity: 0.7; 
+}
